@@ -67,5 +67,5 @@ var job = new CronJob(
 const PORT = process.env.PORT || 3000;
 // Listen
 app.listen(PORT,function(){
-    console.log('Servidor escuchando en el puerto',PORT);
+    console.log('Servidor listo en el puerto',PORT);
 })
