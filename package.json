@@ -1,19 +1,25 @@
 {
-  "name": "auto-dwl-server",
+  "name": "serverdownload-catalogo",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app"
+    "start": "node .\\public\\app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
   "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
     "cron": "^2.1.0",
+    "dotenv": "^16.0.1",
     "express": "^4.18.1",
-    "playwright": "^1.25.0",
+    "playwright": "^1.25.1",
     "serve-index": "^1.9.1"
   }
 }
